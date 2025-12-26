@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Waves } from "lucide-react"
+import Image from "next/image"
 
 export default function About() {
   return (
@@ -10,8 +10,8 @@ export default function About() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-[#21C6E3] to-[#0077BA]">
-                <Waves className="h-6 w-6 text-white" />
+              <div className="flex h-10 w-10 items-center justify-center rounded-lg">
+                <Image src="/kuroshio-logo.svg" alt="Kuroshio-Lab Logo" width={24} height={24} className="h-6 w-6" />
               </div>
               <span className="text-xl font-bold text-white">Kuroshio-Lab</span>
             </div>
@@ -109,8 +109,8 @@ export default function About() {
         <div className="mx-auto max-w-7xl">
           <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
             <div className="flex items-center gap-3">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-[#21C6E3] to-[#0077BA]">
-                <Waves className="h-5 w-5 text-white" />
+              <div className="flex h-8 w-8 items-center justify-center rounded-lg">
+                <Image src="/kuroshio-logo.svg" alt="Kuroshio-Lab Logo" width={24} height={24} className="h-6 w-6" />
               </div>
               <span className="text-sm text-[#A7B2B7]">© 2025 Kuroshio-Lab. All rights reserved.</span>
             </div>

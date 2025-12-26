@@ -10,20 +10,19 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Kuroshio-Lab | Marine Biology Tools Suite",
   description:
-    "A comprehensive suite of cloud-native web applications for marine data collection, visualization, and analysis. Built with Next.js, Django, and AWS.",
-  generator: "v0.app",
+    "Kuroshio-Lab: Open-source cloud-native platform for marine data intelligence, research, and ecosystem monitoring. Built with Next.js, Django, and AWS.",
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
+        url: "/kuroshio-logo.svg",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon-dark-32x32.png",
+        url: "/kuroshio-logo.svg",
         media: "(prefers-color-scheme: dark)",
       },
       {
-        url: "/icon.svg",
+        url: "/kuroshio-logo.svg",
         type: "image/svg+xml",
       },
     ],
