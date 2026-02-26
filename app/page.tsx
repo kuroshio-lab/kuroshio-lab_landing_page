@@ -13,9 +13,9 @@ export default function Home() {
       description:
         "Build core CRUD functionality for logging species sightings on an interactive map, including photo storage (S3) and initial API integration (GBIF/OBIS).",
       icon: Database,
-      status: "coming-soon" as const,
+      status: "live" as const,
       color: "eco" as const,
-      url: "https://tracker.kuroshio-lab.com",
+      url: "https://species.kuroshio-lab.com",
 
     },
     {
@@ -64,7 +64,7 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-b from-[#0D1B2A] via-[#1E2D3A] to-[#0D1B2A]">
       {/* Navigation */}
       <nav className="border-b border-white/10 bg-[#0D1B2A]/80 backdrop-blur-sm">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="flex h-10 w-10 items-center justify-center rounded-lg">
@@ -227,7 +227,7 @@ export default function Home() {
               <div className="flex h-8 w-8 items-center justify-center rounded-lg">
                 <Image src="/kuroshio-logo.svg" alt="Kuroshio-Lab Logo" width={24} height={24} className="h-6 w-6" />
               </div>
-              <span className="text-sm text-[#A7B2B7]">© 2025 Kuroshio-Lab. All rights reserved.</span>
+              <span className="text-sm text-[#A7B2B7]">© 2026 Kuroshio-Lab. All rights reserved.</span>
             </div>
             <div className="flex items-center gap-6">
               <Link href="/about" className="text-sm text-[#A7B2B7] hover:text-[#21C6E3] transition-colors">

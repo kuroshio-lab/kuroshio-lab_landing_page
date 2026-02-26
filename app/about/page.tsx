@@ -112,7 +112,7 @@ export default function About() {
               <div className="flex h-8 w-8 items-center justify-center rounded-lg">
                 <Image src="/kuroshio-logo.svg" alt="Kuroshio-Lab Logo" width={24} height={24} className="h-6 w-6" />
               </div>
-              <span className="text-sm text-[#A7B2B7]">© 2025 Kuroshio-Lab. All rights reserved.</span>
+              <span className="text-sm text-[#A7B2B7]">© 2026 Kuroshio-Lab. All rights reserved.</span>
             </div>
             <div className="flex items-center gap-6">
               <Link href="/" className="text-sm text-[#A7B2B7] hover:text-[#21C6E3] transition-colors">
